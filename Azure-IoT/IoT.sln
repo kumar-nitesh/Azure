@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31710.8
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IoT.Edge.Deploy.Module", "IoT.Edge.Deploy.Module\IoT.Edge.Deploy.Module.csproj", "{DEDDEDAD-F94A-4C97-B7EF-9422BDAACDF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IoT.SendMessage", "IoT.SendMessage\IoT.SendMessage.csproj", "{2020B2D4-8B42-438B-BD8D-9055A3F15712}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DEDDEDAD-F94A-4C97-B7EF-9422BDAACDF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEDDEDAD-F94A-4C97-B7EF-9422BDAACDF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEDDEDAD-F94A-4C97-B7EF-9422BDAACDF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEDDEDAD-F94A-4C97-B7EF-9422BDAACDF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2020B2D4-8B42-438B-BD8D-9055A3F15712}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2020B2D4-8B42-438B-BD8D-9055A3F15712}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2020B2D4-8B42-438B-BD8D-9055A3F15712}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2020B2D4-8B42-438B-BD8D-9055A3F15712}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {60969D8B-EAF3-49C1-8E2C-76BF087CBBAE}
+	EndGlobalSection
+EndGlobal

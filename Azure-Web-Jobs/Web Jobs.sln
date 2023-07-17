@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31710.8
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebJob.Continuous", "WebJob.Continuous\WebJob.Continuous.csproj", "{B95091C7-6A14-49B3-9536-FE371114B87D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebJob.Triggered", "WebJob.Triggered\WebJob.Triggered.csproj", "{431755DC-525B-4D77-8968-8086E70CAC5B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B95091C7-6A14-49B3-9536-FE371114B87D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B95091C7-6A14-49B3-9536-FE371114B87D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B95091C7-6A14-49B3-9536-FE371114B87D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B95091C7-6A14-49B3-9536-FE371114B87D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{431755DC-525B-4D77-8968-8086E70CAC5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{431755DC-525B-4D77-8968-8086E70CAC5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{431755DC-525B-4D77-8968-8086E70CAC5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{431755DC-525B-4D77-8968-8086E70CAC5B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0BC85083-62F8-4477-B503-137EDA9575E1}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Azure-IoT", "Azure-IoT", "{F7B2F0E5-C02E-46D1-AB75-BD8124CC8289}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IoT.Edge.Deploy.Module", "Azure-IoT\IoT.Edge.Deploy.Module\IoT.Edge.Deploy.Module.csproj", "{E03C6098-4D00-4803-B351-4AEA8C28D673}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IoT.SendMessage", "Azure-IoT\IoT.SendMessage\IoT.SendMessage.csproj", "{2E6FE679-0151-4DAB-94B7-247A0D68C802}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Azure-WebJobs", "Azure-WebJobs", "{98B99E6B-2E54-4611-BCE8-6E96552458F8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebJob.Triggered", "Azure-Web-Jobs\WebJob.Triggered\WebJob.Triggered.csproj", "{6E3599D9-4D56-4D7E-9A70-A656A6C2E6E5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebJob.Continuous", "Azure-Web-Jobs\WebJob.Continuous\WebJob.Continuous.csproj", "{51972BBC-437B-4737-A91E-835B37BB8298}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E03C6098-4D00-4803-B351-4AEA8C28D673}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E03C6098-4D00-4803-B351-4AEA8C28D673}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E03C6098-4D00-4803-B351-4AEA8C28D673}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E03C6098-4D00-4803-B351-4AEA8C28D673}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E6FE679-0151-4DAB-94B7-247A0D68C802}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E6FE679-0151-4DAB-94B7-247A0D68C802}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E6FE679-0151-4DAB-94B7-247A0D68C802}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E6FE679-0151-4DAB-94B7-247A0D68C802}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E3599D9-4D56-4D7E-9A70-A656A6C2E6E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E3599D9-4D56-4D7E-9A70-A656A6C2E6E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E3599D9-4D56-4D7E-9A70-A656A6C2E6E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E3599D9-4D56-4D7E-9A70-A656A6C2E6E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51972BBC-437B-4737-A91E-835B37BB8298}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51972BBC-437B-4737-A91E-835B37BB8298}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51972BBC-437B-4737-A91E-835B37BB8298}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51972BBC-437B-4737-A91E-835B37BB8298}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E03C6098-4D00-4803-B351-4AEA8C28D673} = {F7B2F0E5-C02E-46D1-AB75-BD8124CC8289}
+		{2E6FE679-0151-4DAB-94B7-247A0D68C802} = {F7B2F0E5-C02E-46D1-AB75-BD8124CC8289}
+		{6E3599D9-4D56-4D7E-9A70-A656A6C2E6E5} = {98B99E6B-2E54-4611-BCE8-6E96552458F8}
+		{51972BBC-437B-4737-A91E-835B37BB8298} = {98B99E6B-2E54-4611-BCE8-6E96552458F8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D1FC304D-603E-455C-92B0-C1F22028598B}
+	EndGlobalSection
+EndGlobal

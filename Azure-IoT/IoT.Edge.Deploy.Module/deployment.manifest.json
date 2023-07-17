@@ -1,0 +1,32 @@
+{
+  "id": "deploymentid",
+  "priority": 1,
+  "targetCondition": "deviceid",
+  "content": {
+    "modulesContent": {
+      "$edgeAgent": {
+        "properties.desired.runtime.settings.registryCredentials.acrname": {
+          "address": "acrname.azurecr.io",
+          "username": "acrusername",
+          "password": "acrpassword"
+        },
+        "properties.desired.modules.appname": {
+          "settings": {
+            "image": "acrname.azurecr.io/appname:version",
+            "createOptions": "{\"HostConfig\":{\"Privileged\":true,\"ExposedPorts\":{\"2222/tcp\":{}},\"PortBindings\":{\"22/tcp\":[{\"HostPort\":\"22\"}],\"2222/tcp\":[{\"HostPort\":\"2222\"}],\"3000/tcp\":[{\"HostPort\":\"3000\"}],\"3002/tcp\":[{\"HostPort\":\"3002\"}],\"3004/tcp\":[{\"HostPort\":\"3004\"}]},\"Binds\":[\"/home/deviceid/cfg:/app/cfg\"]}}"
+          },
+          "type": "docker",
+          "status": "running",
+          "restartPolicy": "always",
+          "version": "1.0"
+        }
+      }
+    }
+  },
+  "labels": {},
+  "metrics": {
+    "queries": {},
+    "results": {}
+  },
+  "etag": ""
+}
