@@ -2,6 +2,6 @@
 
 This repository contains two Azure projects:
 
-## Project 1: Azure IoT
+# Project 1: Azure IoT
 
-## Project 2: Azure Web Job
+# Project 2: Azure Web Job
